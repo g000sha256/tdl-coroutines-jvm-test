@@ -17,7 +17,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: 17
+          java-version: 24
           distribution: corretto
 
       - name: Run
@@ -34,7 +34,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: 17
+          java-version: 24
           distribution: corretto
 
       - name: Run
@@ -51,7 +51,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: 17
+          java-version: 24
           distribution: corretto
 
       - name: Run
@@ -68,7 +68,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: 17
+          java-version: 24
           distribution: corretto
 
       - name: Run
@@ -85,7 +85,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: 17
+          java-version: 24
           distribution: corretto
 
       - name: Run
@@ -102,8 +102,9 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: 17
+          java-version: 24
           distribution: corretto
+          architecture: aarch64
 
       - name: Run
         run: java -jar TDL-Coroutines.jar
