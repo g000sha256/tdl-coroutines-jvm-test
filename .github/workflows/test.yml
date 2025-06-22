@@ -102,9 +102,10 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: 24
+          java-version: 21
           distribution: corretto
           architecture: aarch64
+          check-latest: true
 
       - name: Run
         run: java -jar TDL-Coroutines.jar
