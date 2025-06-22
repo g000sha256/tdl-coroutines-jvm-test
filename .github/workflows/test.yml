@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 24
-          distribution: corretto
+          distribution: temurin
 
       - name: Run
         run: java -jar TDL-Coroutines.jar
@@ -35,7 +35,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 24
-          distribution: corretto
+          distribution: temurin
 
       - name: Run
         run: java -jar TDL-Coroutines.jar
@@ -52,7 +52,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 24
-          distribution: corretto
+          distribution: temurin
 
       - name: Run
         run: java -jar TDL-Coroutines.jar
@@ -69,7 +69,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 24
-          distribution: corretto
+          distribution: temurin
 
       - name: Run
         run: java -jar TDL-Coroutines.jar
@@ -86,7 +86,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 24
-          distribution: corretto
+          distribution: temurin
 
       - name: Run
         run: java -jar TDL-Coroutines.jar
@@ -102,7 +102,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: 21
+          java-version: 24
           distribution: temurin
           architecture: aarch64
           check-latest: true
