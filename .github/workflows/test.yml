@@ -102,10 +102,8 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          java-version: 24
+          java-version: 23
           distribution: temurin
-          architecture: aarch64
-          check-latest: true
 
       - name: Run
         run: java -jar tdl-coroutines-example-jvm-all.jar
