@@ -21,7 +21,7 @@ jobs:
           distribution: temurin
 
       - name: Run
-        run: java -jar TDL-Coroutines.jar
+        run: java -jar tdl-coroutines-example-jvm-all.jar
 
   test-on-linux-arm64:
     runs-on: ubuntu-24.04-arm
@@ -38,7 +38,7 @@ jobs:
           distribution: temurin
 
       - name: Run
-        run: java -jar TDL-Coroutines.jar
+        run: java -jar tdl-coroutines-example-jvm-all.jar
 
   test-on-macos-intel:
     runs-on: macos-13
@@ -55,7 +55,7 @@ jobs:
           distribution: temurin
 
       - name: Run
-        run: java -jar TDL-Coroutines.jar
+        run: java -jar tdl-coroutines-example-jvm-all.jar
 
   test-on-macos-arm64:
     runs-on: macos-15
@@ -72,7 +72,7 @@ jobs:
           distribution: temurin
 
       - name: Run
-        run: java -jar TDL-Coroutines.jar
+        run: java -jar tdl-coroutines-example-jvm-all.jar
 
   test-on-windows-x64:
     runs-on: windows-2025
@@ -89,7 +89,7 @@ jobs:
           distribution: temurin
 
       - name: Run
-        run: java -jar TDL-Coroutines.jar
+        run: java -jar tdl-coroutines-example-jvm-all.jar
 
   test-on-windows-arm64:
     runs-on: windows-11-arm
@@ -108,4 +108,4 @@ jobs:
           check-latest: true
 
       - name: Run
-        run: java -jar TDL-Coroutines.jar
+        run: java -jar tdl-coroutines-example-jvm-all.jar
